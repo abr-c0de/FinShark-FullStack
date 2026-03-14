@@ -174,6 +174,7 @@ Stock ➡️ Comment (One-to-Many): A Stock can have multiple Comments associate
 
 #### Entity-Relationship Diagram
 
+```mermaid
 erDiagram
     AppUser ||--o{ Portfolio : tracks
     AppUser ||--o{ Comment : writes
@@ -206,6 +207,7 @@ erDiagram
         int StockId FK
         string AppUserId FK
     }
+```
 
 
 
